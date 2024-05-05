@@ -17,7 +17,7 @@ npm install
 1. **Start the Server:** Run the following command in the terminal to start the server:
 npm start
 
-2. **Access the Application:** Open a web browser and go to [http://localhost:3000/order](http://localhost:3000/order) to access the menu page.
+2. **Access the Application:** Open a web browser and go to [http://localhost:3000/order](http://localhost:3000/order) to access the order page.
 
 3. **Place an Order:** Select items from the menu, specify quantities, and click the "Checkout" button to proceed to the order confirmation page.
 
