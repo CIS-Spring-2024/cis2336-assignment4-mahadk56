@@ -7,7 +7,7 @@ complete gallery with the menu, and information about the restaurant in general.
 
 ## Project Setup
 
-1. **Clone Repository:** Clone the repository to your local machine.
+1. **Clone Repository:** Clone the repository to your local machine. Please ensure to download the entire directory as the paths are hardcoded.
 
 2. **Install Dependencies:** Open the terminal in VS Code and run the following command to install project dependencies:
 npm install
