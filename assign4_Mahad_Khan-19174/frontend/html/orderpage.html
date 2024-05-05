@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Online</title>
+    <link rel="stylesheet" href="../css/orderpage.css">
+</head>
+<body>
+    <header>
+        <img class="logo" src="https://i.ibb.co/w6MbPt3/Designer-1-removebg-preview.png" alt="Logo" border="0"></a>
+        <h1>Coog Cafe</h1>
+        <nav>
+            <ul>
+                <li><a class="nav-button" href="cafeteria-home.html">Cafeteria Home</a></li>
+                <li><a class="nav-button" href="owner-bio.html">Owner's Bio</a></li>
+                <li><a class="nav-button" href="cafeteria-menu.html">Our Menu</a>
+                <li><a class="nav-button" href="orderpage.html">Order Online</a>
+            </ul>
+        </nav> 
+    </header>
+    <section id="menu">
+        <h2 id="pagetitle">Order Page</h2>
+        <form id="orderForm" action="/process-order" method="POST"> <!-- Form wraps around menu items -->
+        <div class="item">
+            <span>Coffee - $2.99</span>
+            <select name="Coffee" class="itemQuantity">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+        </div>
+        <div class="item">
+            <span>Burger - $5.99</span>
+            <select name="Burger" class="itemQuantity">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+        </div>
+        <div class="item">
+            <span>Pizza - $8.99</span>
+            <select name="Pizza" class="itemQuantity">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+        </div>
+        <div class="item">
+            <span>Salad - $4.99</span>
+            <select name="Salad" class="itemQuantity">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+        </div>
+        <div class="item">
+            <span>Alfredo Pasta - $7.99</span>
+            <select name="Alfredo Pasta" class="itemQuantity">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+        </div>
+        <div class="item">
+            <span>Peach Smoothie - $3.99</span>
+            <select name="Peach Smoothie" class="itemQuantity">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+        </div>
+        <div class="item">
+            <span>Club Sandwich - $6.99</span>
+            <select name="Club Sandwich" class="itemQuantity">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+        </div>
+        <div class="item">
+            <span>Sushi - $9.99</span>
+            <select name="Sushi" class="itemQuantity">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+        </div>
+        <div class="item">
+            <span>Tacos - $5.49</span>
+            <select name="Tacos" class="itemQuantity">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+        </div>
+        <div class="item">
+            <span>Tomato Soup - $3.49</span>
+            <select name="Tomato Soup" class="itemQuantity">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </select>
+        </div>
+        <div id="totalPrice">Total Price: $0.00</div>
+        <button id="updateCartBtn" type="button">Update Cart</button>
+        <button id="checkoutBtn" type="submit">Checkout</button> <!-- Changed button type to submit -->
+        </form>
+    </section>    
+    <script src="../../backend/orderscript.js" defer></script>
+</body>
+</html>
+    <footer>
+        <p>&copy; 2024 Coog Cafe</p>
+    </footer>
+</body>
+</html>

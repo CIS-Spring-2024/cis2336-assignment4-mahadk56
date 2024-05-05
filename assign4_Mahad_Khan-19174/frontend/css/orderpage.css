@@ -1,0 +1,109 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(201, 6, 6);
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+.nav-button {
+    display: inline-block;
+    background-color: white;
+    color: rgb(201, 6, 6);
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.nav-button:hover {
+    background-color: rgb(201, 6, 6);
+    color: white;
+}
+.logo {
+    float: left;
+    width: 125px; 
+    height: 125px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+footer {
+    background-color: rgb(201, 6, 6);
+    color: white;
+    text-align: center;
+    padding: 1em;
+}
+#menu h2{
+    margin-top: 0;
+    color: rgb(201, 6, 6);
+}
+#menu{
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+#orderForm {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+#totalPrice{
+    margin: auto;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(201, 6, 6);
+}
+#orderForm h2 {
+    margin-top: 0;
+    color: rgb(201, 6, 6);
+}
+
+.item {
+    margin-bottom: 20px;
+}
+
+#updateCartBtn, #checkoutBtn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(201, 6, 6);
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#updateCartBtn:hover, #checkoutBtn:hover {
+    background-color: #0056b3;
+}
